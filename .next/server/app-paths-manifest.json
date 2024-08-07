@@ -1,9 +1,5 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js",
   "/(auth)/sign-in/page": "app/(auth)/sign-in/page.js",
-  "/api/login/google/route": "app/api/login/google/route.js",
-  "/api/login/google/callback/route": "app/api/login/google/callback/route.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/dashboard/page": "app/dashboard/page.js"
 }
