@@ -16,9 +16,9 @@
     "db:reset": "npm run db:clear && npm run db:migrate && npm run db:seed"
   },
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.626.0",
+    "@aws-sdk/client-s3": "3.587.0",
     "@aws-sdk/lib-storage": "3.587.0",
-    "@aws-sdk/s3-presigned-post": "^3.626.0",
+    "@aws-sdk/s3-presigned-post": "3.587.0",
     "@aws-sdk/s3-request-presigner": "3.587.0",
     "@hookform/resolvers": "^3.9.0",
     "@lucia-auth/adapter-drizzle": "^1.0.7",
