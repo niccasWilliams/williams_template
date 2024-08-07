@@ -13,6 +13,10 @@ export async function GET(request: Request): Promise<Response> {
   const storedState = cookies().get("google_oauth_state")?.value ?? null;
   const codeVerifier = cookies().get("google_code_verifier")?.value ?? null;
 
+  console.log('State:', state);
+  console.log('Stored State:', storedState);
+  console.log('Code Verifier:', codeVerifier);
+
   if (
     !code ||
     !state ||
@@ -20,6 +24,7 @@ export async function GET(request: Request): Promise<Response> {
     state !== storedState ||
     !codeVerifier
   ) {
+    console.log('Error: State or code verifier mismatch or missing.');
     return new Response(null, {
       status: 400,
     });
@@ -30,6 +35,9 @@ export async function GET(request: Request): Promise<Response> {
       code,
       codeVerifier
     );
+
+    console.log('Tokens:', tokens);
+
     const response = await fetch(
       "https://openidconnect.googleapis.com/v1/userinfo",
       {

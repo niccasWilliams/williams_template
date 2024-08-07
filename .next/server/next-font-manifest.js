@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/niclaspilz/Desktop/Projekte/williams_template/src/app/layout\":[\"static/media/b4f46b1ccc361ec4-s.p.woff2\",\"static/media/2f55186ad5cc12c3-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
