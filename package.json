@@ -16,9 +16,9 @@
     "db:reset": "npm run db:clear && npm run db:migrate && npm run db:seed"
   },
   "dependencies": {
-    "@aws-sdk/client-s3": "3.587.0",
+    "@aws-sdk/client-s3": "^3.626.0",
     "@aws-sdk/lib-storage": "3.587.0",
-    "@aws-sdk/s3-presigned-post": "3.587.0",
+    "@aws-sdk/s3-presigned-post": "^3.626.0",
     "@aws-sdk/s3-request-presigner": "3.587.0",
     "@hookform/resolvers": "^3.9.0",
     "@lucia-auth/adapter-drizzle": "^1.0.7",
@@ -46,7 +46,7 @@
     "react-dom": "^18",
     "react-hook-form": "^7.52.2",
     "resend": "^3.5.0",
-    "shadcn-ui": "^0.8.0",
+    "shadcn-ui": "^0.2.3",
     "tailwind-merge": "^2.4.0",
     "tailwindcss-animate": "^1.0.7",
     "unique-names-generator": "^4.7.1",
